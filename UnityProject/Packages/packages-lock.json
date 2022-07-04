@@ -146,6 +146,12 @@
       },
       "url": "https://packages.unity.com"
     },
+    "za.co.gameup.scriptable-objects-architecture": {
+      "version": "file:za.co.gameup.scriptable-objects-architecture",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
