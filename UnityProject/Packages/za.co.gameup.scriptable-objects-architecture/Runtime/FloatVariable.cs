@@ -1,20 +1,10 @@
 namespace ScriptableObjects.Variables
 {
+    using System;
     using UnityEngine;
 
     [CreateAssetMenu(menuName = "Variables/Float")]
-    public class FloatVariable : ScriptableObject
+    public class FloatVariable : Variable<float>
     {
-        public float Value;
-
-        public void SetValue(float value)
-        {
-            Value = value;
-        }
-
-        public void SetValue(FloatVariable value)
-        {
-            Value = value.Value;
-        }
     }
 }
