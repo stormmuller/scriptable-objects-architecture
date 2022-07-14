@@ -822,6 +822,7 @@ GameObject:
   - component: {fileID: 1531588086}
   - component: {fileID: 1531588085}
   - component: {fileID: 1531588087}
+  - component: {fileID: 1531588088}
   m_Layer: 5
   m_Name: Total Text
   m_TagString: Untagged
@@ -958,8 +959,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67ccd05ebf253244b8420fa1951026b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalBlocksCollected: {fileID: 0}
-  requiredBlocks: {fileID: 0}
+  totalBlocksCollected: {fileID: 11400000, guid: c66c2691c86e38243bb7bc21a01a9245, type: 2}
+  requiredBlocks: {fileID: 11400000, guid: 12c61087d838e4a4e94e5c42d338b216, type: 2}
+--- !u!114 &1531588088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531588083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c74f161e882def42b1a4b715dd34a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 37ac10fd6a988d740aa5083c116819d1, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1531588087}
+        m_TargetAssemblyTypeName: GameCompletetionDisplay, Assembly-CSharp
+        m_MethodName: OnBlockCollected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1794150053
 PrefabInstance:
   m_ObjectHideFlags: 0
