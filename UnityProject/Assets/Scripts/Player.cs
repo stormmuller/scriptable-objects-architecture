@@ -18,6 +18,6 @@ public class Player : MonoBehaviour
         var horizontal = Input.GetAxis("Horizontal");
         var vertical = Input.GetAxis("Vertical");
 
-        rb.velocity = new Vector3(horizontal, 0f, vertical) * speed * 50f * Time.deltaTime;
+        rb.velocity = new Vector3(horizontal, 0f, vertical) * speed * 100f * Time.deltaTime;
     }
 }

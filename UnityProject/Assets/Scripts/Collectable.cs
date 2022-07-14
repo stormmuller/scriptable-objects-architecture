@@ -1,15 +1,17 @@
+using ScriptableObjects.GameEvents;
 using ScriptableObjects.Variables;
 using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
     [SerializeField] private IntegerVariable totalBlocksCollected;
+    [SerializeField] private GameEvent onBlockCollectedEvent;
 
     private void OnTriggerEnter(Collider other)
     {
         totalBlocksCollected.CurrentValue += 1;
 
-        print(totalBlocksCollected.CurrentValue);
+        onBlockCollectedEvent.Raise();
 
         Destroy(this.gameObject);
     }

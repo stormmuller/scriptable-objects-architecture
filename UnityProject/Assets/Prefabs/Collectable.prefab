@@ -111,3 +111,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalBlocksCollected: {fileID: 11400000, guid: c66c2691c86e38243bb7bc21a01a9245, type: 2}
+  onBlockCollectedEvent: {fileID: 11400000, guid: 37ac10fd6a988d740aa5083c116819d1, type: 2}

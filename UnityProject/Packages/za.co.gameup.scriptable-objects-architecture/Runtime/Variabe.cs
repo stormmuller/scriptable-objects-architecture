@@ -10,6 +10,8 @@ namespace ScriptableObjects.Variables
         [NonSerialized]
         public T CurrentValue;
 
+        public static implicit operator T(Variable<T> variable) => variable.CurrentValue;
+
         public void OnAfterDeserialize()
         {
             CurrentValue = InitialValue;
