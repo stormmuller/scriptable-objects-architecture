@@ -1,0 +1,11 @@
+{
+  "name": "GameUp.so_architecture.Tests",
+  "references": [
+    "GameUp.so_architecture"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": []
+}

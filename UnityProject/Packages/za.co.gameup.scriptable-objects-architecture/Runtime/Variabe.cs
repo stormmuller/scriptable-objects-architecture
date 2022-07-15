@@ -20,5 +20,10 @@ namespace ScriptableObjects.Variables
         public void OnBeforeSerialize()
         {
         }
+
+        public override string ToString()
+        {
+            return CurrentValue.ToString();
+        }
     }
 }
