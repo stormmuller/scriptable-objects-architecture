@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 97
+  controlID: 28
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,21 +59,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1224.8
+    x: 980.8
     y: 0
-    width: 311.19995
+    width: 555.2
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
+  - {fileID: 16}
+  - {fileID: 12}
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -92,13 +93,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 303.2
+    width: 238.4
     height: 436.8
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -118,14 +119,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 436.8
-    width: 1224.8
+    width: 980.8
     height: 286
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 15}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -218,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1224.8
+    width: 980.8
     height: 722.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 18
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1224.8
+    width: 980.8
     height: 436.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 19
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,21 +265,477 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 303.2
+    x: 238.4
     y: 0
-    width: 921.60004
+    width: 742.4
     height: 436.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 14}
   - {fileID: 13}
-  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 980.8
+    y: 73.6
+    width: 554.2
+    height: 701.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 1900
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 473.6
+    - 158.4
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 632
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 12}
+    m_NewResultList:
+    - id: 1005
+      uniqueId: '[UnityProject][suite]'
+      name: UnityProject
+      fullName: UnityProject
+      resultStatus: 1
+      duration: 0.1888572
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[GameUp.so_architecture.Tests][D:/scriptable-objects-architecture/UnityProject/Library/ScriptAssemblies/GameUp.so_architecture.Tests.dll][suite]'
+      name: GameUp.so_architecture.Tests.dll
+      fullName: D:/scriptable-objects-architecture/UnityProject/Library/ScriptAssemblies/GameUp.so_architecture.Tests.dll
+      resultStatus: 1
+      duration: 0.0658521
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[UnityProject][suite]'
+    - id: 1001
+      uniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][FloatVariableTest][suite]
+      name: FloatVariableTest
+      fullName: FloatVariableTest
+      resultStatus: 1
+      duration: 0.0409732
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1018
+      parentUniqueId: '[GameUp.so_architecture.Tests][D:/scriptable-objects-architecture/UnityProject/Library/ScriptAssemblies/GameUp.so_architecture.Tests.dll][suite]'
+    - id: 1007
+      uniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/[GameUp.so_architecture.Tests][FloatVariableTest.Adding_Two_Floats][suite]
+      name: Adding_Two_Floats
+      fullName: FloatVariableTest.Adding_Two_Floats
+      resultStatus: 1
+      duration: 0.0233488
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][FloatVariableTest][suite]
+    - id: 1004
+      uniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/Adding_Two_Floats/[GameUp.so_architecture.Tests][FloatVariableTest.Adding_Two_Floats(2.12f,2.14f,4.26f)]
+      name: Adding_Two_Floats(2.12f,2.14f,4.26f)
+      fullName: FloatVariableTest.Adding_Two_Floats(2.12f,2.14f,4.26f)
+      resultStatus: 1
+      duration: 0.0113808
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/[GameUp.so_architecture.Tests][FloatVariableTest.Adding_Two_Floats][suite]
+    - id: 1005
+      uniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/Adding_Two_Floats/[GameUp.so_architecture.Tests][FloatVariableTest.Adding_Two_Floats(1.111f,2.222f,3.333f)]
+      name: Adding_Two_Floats(1.111f,2.222f,3.333f)
+      fullName: FloatVariableTest.Adding_Two_Floats(1.111f,2.222f,3.333f)
+      resultStatus: 1
+      duration: 0.0002011
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/[GameUp.so_architecture.Tests][FloatVariableTest.Adding_Two_Floats][suite]
+    - id: 1006
+      uniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/Adding_Two_Floats/[GameUp.so_architecture.Tests][FloatVariableTest.Adding_Two_Floats(12.0f,43.0f,55.0f)]
+      name: Adding_Two_Floats(12.0f,43.0f,55.0f)
+      fullName: FloatVariableTest.Adding_Two_Floats(12.0f,43.0f,55.0f)
+      resultStatus: 1
+      duration: 0.0001336
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/[GameUp.so_architecture.Tests][FloatVariableTest.Adding_Two_Floats][suite]
+    - id: 1002
+      uniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/[GameUp.so_architecture.Tests][FloatVariableTest.Sets_Current_Value_To_Initial_Value_On_Deserialize]
+      name: Sets_Current_Value_To_Initial_Value_On_Deserialize
+      fullName: FloatVariableTest.Sets_Current_Value_To_Initial_Value_On_Deserialize
+      resultStatus: 1
+      duration: 0.0044552
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][FloatVariableTest][suite]
+    - id: 1003
+      uniqueId: GameUp.so_architecture.Tests.dll/FloatVariableTest/[GameUp.so_architecture.Tests][FloatVariableTest.ToString_Returns_Float_As_String]
+      name: ToString_Returns_Float_As_String
+      fullName: FloatVariableTest.ToString_Returns_Float_As_String
+      resultStatus: 1
+      duration: 0.0003924
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][FloatVariableTest][suite]
+    - id: 1001
+      uniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][IntegerVariableTest][suite]
+      name: IntegerVariableTest
+      fullName: IntegerVariableTest
+      resultStatus: 1
+      duration: 0.0071696
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[GameUp.so_architecture.Tests][D:/scriptable-objects-architecture/UnityProject/Library/ScriptAssemblies/GameUp.so_architecture.Tests.dll][suite]'
+    - id: 1006
+      uniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/[GameUp.so_architecture.Tests][IntegerVariableTest.Adding_Two_Integers][suite]
+      name: Adding_Two_Integers
+      fullName: IntegerVariableTest.Adding_Two_Integers
+      resultStatus: 1
+      duration: 0.0038372
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][IntegerVariableTest][suite]
+    - id: 1003
+      uniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/Adding_Two_Integers/[GameUp.so_architecture.Tests][IntegerVariableTest.Adding_Two_Integers(2,2,4)]
+      name: Adding_Two_Integers(2,2,4)
+      fullName: IntegerVariableTest.Adding_Two_Integers(2,2,4)
+      resultStatus: 1
+      duration: 0.001384
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/[GameUp.so_architecture.Tests][IntegerVariableTest.Adding_Two_Integers][suite]
+    - id: 1004
+      uniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/Adding_Two_Integers/[GameUp.so_architecture.Tests][IntegerVariableTest.Adding_Two_Integers(1,2,3)]
+      name: Adding_Two_Integers(1,2,3)
+      fullName: IntegerVariableTest.Adding_Two_Integers(1,2,3)
+      resultStatus: 1
+      duration: 0.0000976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/[GameUp.so_architecture.Tests][IntegerVariableTest.Adding_Two_Integers][suite]
+    - id: 1005
+      uniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/Adding_Two_Integers/[GameUp.so_architecture.Tests][IntegerVariableTest.Adding_Two_Integers(12,43,55)]
+      name: Adding_Two_Integers(12,43,55)
+      fullName: IntegerVariableTest.Adding_Two_Integers(12,43,55)
+      resultStatus: 1
+      duration: 0.0001236
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/[GameUp.so_architecture.Tests][IntegerVariableTest.Adding_Two_Integers][suite]
+    - id: 1002
+      uniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/[GameUp.so_architecture.Tests][IntegerVariableTest.Sets_Current_Value_To_Initial_Value_On_Deserialize]
+      name: Sets_Current_Value_To_Initial_Value_On_Deserialize
+      fullName: IntegerVariableTest.Sets_Current_Value_To_Initial_Value_On_Deserialize
+      resultStatus: 1
+      duration: 0.0002797
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][IntegerVariableTest][suite]
+    - id: 1002
+      uniqueId: GameUp.so_architecture.Tests.dll/IntegerVariableTest/[GameUp.so_architecture.Tests][IntegerVariableTest.ToString_Returns_Integer_As_String]
+      name: ToString_Returns_Integer_As_String
+      fullName: IntegerVariableTest.ToString_Returns_Integer_As_String
+      resultStatus: 1
+      duration: 0.0003183
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][IntegerVariableTest][suite]
+    - id: 1007
+      uniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][StringVariableTest][suite]
+      name: StringVariableTest
+      fullName: StringVariableTest
+      resultStatus: 1
+      duration: 0.003414
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[GameUp.so_architecture.Tests][D:/scriptable-objects-architecture/UnityProject/Library/ScriptAssemblies/GameUp.so_architecture.Tests.dll][suite]'
+    - id: 1008
+      uniqueId: GameUp.so_architecture.Tests.dll/StringVariableTest/[GameUp.so_architecture.Tests][StringVariableTest.Adding_Two_Strings]
+      name: Adding_Two_Strings
+      fullName: StringVariableTest.Adding_Two_Strings
+      resultStatus: 1
+      duration: 0.0009481
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][StringVariableTest][suite]
+    - id: 1009
+      uniqueId: GameUp.so_architecture.Tests.dll/StringVariableTest/[GameUp.so_architecture.Tests][StringVariableTest.Sets_Current_Value_To_Initial_Value_On_Deserialize]
+      name: Sets_Current_Value_To_Initial_Value_On_Deserialize
+      fullName: StringVariableTest.Sets_Current_Value_To_Initial_Value_On_Deserialize
+      resultStatus: 1
+      duration: 0.0002274
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: GameUp.so_architecture.Tests.dll/[GameUp.so_architecture.Tests][StringVariableTest][suite]
+    m_ResultText: Adding_Two_Integers (0.004s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: b03799c3
+      m_LastClickedID: -1013368912
+      m_ExpandedIDs: 6fba9babd4b488b2208ef4b6b03799c37ddd30109ca071240d940b4a2a24e6550b9f0265ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 12}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[UnityProject][suite]'
+      name: UnityProject
+      fullName: UnityProject
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2a24e655ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -306,7 +763,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -334,7 +791,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -356,7 +813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 510.4
-    width: 1223.8
+    width: 979.8
     height: 265
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -375,22 +832,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Packages/za.co.gameup.scriptable-objects-architecture/Tests/Runtime
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
-  m_LastFoldersGridSize: -1
+  - Packages/za.co.gameup.scriptable-objects-architecture/Tests/Runtime
+  m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\scriptable-objects-architecture\UnityProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a05a0000
-    m_LastClickedID: 23200
-    m_ExpandedIDs: 00000000905a0000925a0000b65a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 171}
+    m_SelectedIDs: e85a0000
+    m_LastClickedID: 23272
+    m_ExpandedIDs: 00000000945a0000965a0000985a0000e45a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +875,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000905a0000925a0000
+    m_ExpandedIDs: 00000000945a0000965a0000985a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -449,18 +906,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: FloatVariableTest
+      m_OriginalName: FloatVariableTest
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 24442
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -471,10 +928,10 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 273
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -494,9 +951,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1224.8
+    x: 940
     y: 73.6
-    width: 310.19995
+    width: 595
     height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -515,7 +972,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -537,7 +994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 302.2
+    width: 237.4
     height: 415.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -546,9 +1003,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 285a0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 38fbffffde590000
+      m_SelectedIDs: 3a620000
+      m_LastClickedID: 25146
+      m_ExpandedIDs: 30bcffff7abcffff4cbeffffd8c0ffff22c1ffffe0c2ffff4ec3ffff98c3ffffdcc4ffff00c6ffff4ac6ffffbac7ffff28c8ffff72c8ffffb6c9ffffd2caffff1ccbffff8cccffff34d2ffff7ed2ffffc0d3ffff20d5ffff6ad5fffffad6ffffccd8ffff16d9ffff5adaffff46ddffff90ddfffff6deffff16e0ffff60e0ffffbce1ffff38e3ffff82e3ffffc4e4ffffc0e8ffff0ae9ffff4eeafffff6ebffff3cecffffb8ecffff38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -572,7 +1029,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 8e16733993e3bdf4a95747b86dce1158
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -592,9 +1049,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 303.2
+    x: 238.40001
     y: 73.6
-    width: 919.60004
+    width: 740.4
     height: 415.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -877,7 +1334,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -897,9 +1354,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 303.2
+    x: 238.40001
     y: 73.6
-    width: 919.60004
+    width: 740.4
     height: 415.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -911,7 +1368,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1149.5, y: 493.5}
+  m_TargetSize: {x: 925.5, y: 493.5}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -926,8 +1383,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -459.80002
-    m_HBaseRangeMax: 459.80002
+    m_HBaseRangeMin: -370.2
+    m_HBaseRangeMax: 370.2
     m_VBaseRangeMin: -197.40001
     m_VBaseRangeMax: 197.40001
     m_HAllowExceedBaseRangeMin: 1
@@ -947,29 +1404,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 919.60004
+      width: 740.4
       height: 394.8
     m_Scale: {x: 0.99999994, y: 0.99999994}
-    m_Translation: {x: 459.80002, y: 197.4}
+    m_Translation: {x: 370.2, y: 197.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -459.80005
+      x: -370.20004
       y: -197.40001
-      width: 919.6001
+      width: 740.4001
       height: 394.80002
     m_MinimalGUI: 1
   m_defaultScale: 0.99999994
-  m_LastWindowPixelSize: {x: 1149.5, y: 519.75}
+  m_LastWindowPixelSize: {x: 925.5, y: 519.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -991,7 +1448,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 510.4
-    width: 1223.8
+    width: 939
     height: 265
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
